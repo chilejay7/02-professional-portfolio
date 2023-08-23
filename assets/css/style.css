@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Used to syle the header*/
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -17,26 +18,49 @@ body {
     color: #ffffff;
 }
 
-nav {
-    flex-wrap: wrap;
-}
-
 h1 {
     font-size: 3rem;
-    justify-content: flex-start;
+    flex-basis: 20%;
+    border: 5px solid black;
+    flex-basis: 40%;
 }
 
-ul {
+/*This sets the navigation menu*/
+nav {
+    flex-wrap: wrap;
+    border: 5px solid black;
+    padding: 0;
+}
+
+a {
+    /*Used to remove the link underlining*/
+    text-decoration: none;
+    padding: 0;
+}
+
+nav a:hover {
+    background-color: yellow;
+}
+
+nav ul {
     list-style: none;
-    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap; 
 }
 
-ul li {
-    display: inline-block;
+nav ul li {
     margin-right: 20px;
     margin-left: 20px;
     border-bottom: solid black 5px;
-    font-size: 2rem;
+    font-size: 2rem;   
+}
+
+/*Professional Headshot*/
+#headshot {
+    border: 5px solid black;
+     /*This will create a circular image.*/
+     border-radius: 100%;
+     margin-left: 5%;
 }
 
 p {
@@ -52,8 +76,7 @@ p {
 
 .main-content {
     margin-bottom: 20px;
-    margin-top: 20px;
-    display: flex;
+    margin-top: 20px;    
 }
 
 h2 {
@@ -61,9 +84,26 @@ h2 {
     border-right: solid black 3px;
     padding-right: 10px;
     text-align: right;
-    width: 15%;
+    width: 10%;
     font-size: 2rem;
 }
+
+/*Contact Me section Formatting*/
+.contact-me {
+    display: flex;
+    list-style: none;
+    }
+
+.contact-container {
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid black;
+    width: 80%;
+    padding: 5px
+}
+
 
 /* Media Queries - At certain breakpoints the content will need to change flex
 direction to use columns 
