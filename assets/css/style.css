@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.prof-header {
+.header-container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -17,20 +17,22 @@ body {
     color: #ffffff;
 }
 
-h1 {
-    font-size: 3rem;
+nav {
+    flex-wrap: wrap;
 }
 
-/*header nav {
-    float: right;
-}*/
+h1 {
+    font-size: 3rem;
+    justify-content: flex-start;
+}
 
 ul {
     list-style: none;
+    margin-right: 10px;
 }
 
 ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
     margin-left: 20px;
     border-bottom: solid black 5px;
@@ -55,11 +57,27 @@ p {
 }
 
 h2 {
-    float: left;
     margin-right: 20px;
     border-right: solid black 3px;
     padding-right: 10px;
     text-align: right;
-    width: 10%;
+    width: 15%;
     font-size: 2rem;
 }
+
+/* Media Queries - At certain breakpoints the content will need to change flex
+direction to use columns 
+
+@media and screen (max-width: 790px) {
+
+    nav {
+        flex-direction: columns
+    }
+
+    li {
+        display: block
+    }
+
+}
+
+*/
