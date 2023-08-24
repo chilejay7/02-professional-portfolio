@@ -26,7 +26,7 @@ h1 {
 }
 
 /*This sets the navigation menu*/
-nav {
+.navigation {
     flex-wrap: wrap;
     border: 5px solid black;
     padding: 0;
@@ -38,29 +38,33 @@ a {
     padding: 0;
 }
 
-nav a:hover {
+.navigation a:hover {
     background-color: yellow;
 }
 
-nav ul {
+.navigation ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap; 
 }
 
-nav ul li {
+.navigation ul li {
     margin-right: 20px;
     margin-left: 20px;
     border-bottom: solid black 5px;
     font-size: 2rem;   
 }
 
-/*Professional Headshot*/
+/*Professional Headshot.  The position of this element was changed for testing.  This 
+will need be changed before final release.*/
 #headshot {
     border: 5px solid black;
      /*This will create a circular image.*/
      border-radius: 100%;
      margin-left: 5%;
+     position: absolute;
+     top: 0;
+     right: 50%;
 }
 
 p {
