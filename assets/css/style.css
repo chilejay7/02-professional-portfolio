@@ -153,6 +153,18 @@ h2 {
     border: solid aqua 5px;
 }
 
+#app-1 {
+    border: solid black 3px;
+    margin-bottom: 30px;
+}
+
+#apps-2-3 {
+    display: flex;
+    justify-content: center;
+    flex-basis: 75%;
+    border: solid black 3px;
+}
+
 .app-img {
     border: solid aqua 5px;
 }
