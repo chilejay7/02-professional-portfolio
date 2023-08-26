@@ -1,5 +1,5 @@
 :root {
-    --
+    --txt-color: #ffffff;
 }
 
 * {
@@ -53,11 +53,16 @@ need to be changed before final release.*/
      border-radius: 100%;
      margin-left: 1%;
      position: absolute;
-     top: 0;
+     top: 1%;
      left: 0;
 }
 
-/*This sets the navigation menu.  The class was created for additional specificity weight.*/
+/*This sets the navigation menu.  The class was created for additional specificity weight.
+
+
+Anchor seection used to style links and anchor elements with hover properties and 
+styling after click.*/
+
 .navigation {
     flex-wrap: wrap;
     border: 5px solid black;
@@ -65,10 +70,7 @@ need to be changed before final release.*/
     margin-top: 3%;
 }
 
-/* Anchor seection used to style links and anchor elements with hover properties and 
-styling after click.
-
-Used to remove the link underlining*/
+/*Used to remove the link underlining*/
 a {
     text-decoration: none;
     padding: 0;
@@ -76,6 +78,10 @@ a {
 
 .navigation a:hover {
     background-color: yellow;
+}
+
+.navigation a:visited {
+    color: var(--txt-color);
 }
 
 .navigation ul {
@@ -88,9 +94,11 @@ a {
     margin-right: 20px;
     margin-left: 20px;
     border-bottom: solid teal 3px;
-    font-size: 2rem; 
+    font-size: 2rem;
+    color: var(--txt-color);
 }
 
+/*Image section after navigation menu*/
 .hero-image {
     background-image: url("../images/mountains.jpg");
     background-repeat: no-repeat;
@@ -104,6 +112,7 @@ a {
     width: 100%;
 }
 
+/*About Me section.*/
 h2 {
     margin-right: 20px;
     border-right: solid black 3px;
@@ -113,7 +122,6 @@ h2 {
     font-size: 2rem;
 }
 
-/*About Me section. */
 .about-container {
     display: flex;
     margin: 20px 20px;
@@ -130,6 +138,20 @@ h2 {
     margin: 20px 20px;
 }
 
+.app-label {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    right: 20.8%;
+    bottom: 25%;
+    background-color: teal;
+    border: solid aqua 5px;
+}
+
+.app-img {
+    border: solid aqua 5px;
+}
 
 /*Contact Me section Formatting*/
 .contact-me {
@@ -148,7 +170,7 @@ h2 {
     padding: 5px;
 }
 
-/*icon links before*/
+/*icon links before contact me information*/
 #linkedin-ico::before {
     content: url(../images/linkedin.jpg);
     display: inline-block;
@@ -169,7 +191,6 @@ h2 {
     vertical-align: middle;
     padding-right: 5px;
 }
-
 
 /* Media Queries - At certain breakpoints the content will need to change flex
 direction to use columns 
