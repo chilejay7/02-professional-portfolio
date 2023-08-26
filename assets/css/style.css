@@ -65,7 +65,7 @@ styling after click.*/
 
 .navigation {
     flex-wrap: wrap;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
     padding: 0;
     margin-top: 3%;
 }
@@ -77,7 +77,7 @@ a {
 }
 
 .navigation a:hover {
-    background-color: yellow;
+    background-color: grey;
 }
 
 .navigation a:visited {
@@ -93,9 +93,10 @@ a {
 .navigation ul li {
     margin-right: 20px;
     margin-left: 20px;
-    border-bottom: solid teal 3px;
     font-size: 2rem;
     color: var(--txt-color);
+    border-bottom: solid teal 3px;
+    border-radius: 20%;
 }
 
 /*Image section after navigation menu*/
@@ -134,8 +135,11 @@ h2 {
 /*Work section including links to applications.*/
 
 .work-container {
+    padding-top: 30px;
     display: flex;
+    flex-wrap: wrap;
     margin: 20px 20px;
+    border: solid black 5px;
 }
 
 .app-label {
@@ -165,7 +169,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
     flex-basis: 75%;
     padding: 5px;
 }
