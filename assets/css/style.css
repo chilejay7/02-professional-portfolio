@@ -293,4 +293,10 @@ improved definition and styling of each individual section. */
     }
 }
 
+@media screen and (max-width: 553px) {
+    #headshot {
+        top: 57%;
+        left: 32%;
+    }
+}
 
