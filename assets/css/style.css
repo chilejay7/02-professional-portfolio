@@ -218,7 +218,7 @@ a {
 
 /* This adds icon links before contact me information.  The links were resized in MS Paint before adding. */ 
 
-#phone::before {
+#phone-ico::before {
     content: url(../images/phone_icon.png);
  }
 
