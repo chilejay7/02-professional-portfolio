@@ -230,7 +230,7 @@ a {
 
 
 /* Media Queries - At a breakpoint of 740px the content will need to change flex
-direction to use columns.  */
+direction to use columns. */
 
 @media screen and (max-width: 740px) {
 
