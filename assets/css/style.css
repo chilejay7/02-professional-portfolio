@@ -1,8 +1,11 @@
+/* Throughout this document comments for solid borders have added to use as visual aids for styling
+purposes.  They can easily be toggled off/on to better determine margins, borders, positioning, etc. */
+
+/* The variables below have been added to reference the most commonly used colors. */
 :root {
     --txt-color: #ffffff;
     --bkgd-main1: #d9dcd6;
     --bkgd-main2: #eeeeee;
-
 }
 
 * {
@@ -11,7 +14,7 @@
     margin: 0;
 }
 
-/*General styling*/
+/*General styling for paragraph and body elements.*/
 p {
     font-size: 1.5rem;
     width: 75%;
@@ -20,6 +23,16 @@ p {
 
 body {
     background-color: var(--bkgd-main1);
+}
+
+h2 {
+    margin-right: 20px;
+    border-right: solid black 3px;
+    text-align: right;
+    padding-right: 10px;
+    width: 15%;
+    font-size: 2rem;
+    /* border: solid black 3px; */
 }
 
 /*Header and Navigation menu styling.
@@ -80,14 +93,17 @@ a {
     color: var(--txt-color);
 }
 
+/* This gives links in the navigation menu a grey background when hovered. */
 .navigation a:hover {
     background-color: grey;
 }
 
+/* This styles links so the text color does not blend into the header background after click. */
 .navigation a:visited {
     color: var(--txt-color);
 }
 
+/* A flex container was needed separately for this container to syle the list elements. */
 .navigation ul {
     list-style: none;
     display: flex;
@@ -119,18 +135,11 @@ a {
 }
 
 /*About Me section.*/
-h2 {
-    margin-right: 20px;
-    border-right: solid black 3px;
-    text-align: right;
-    padding-right: 10px;
-    width: 15%;
-    font-size: 2rem;
-}
-
 .about-container {
     display: flex;
-    margin: 20px 20px;
+    padding: 20px 20px;
+
+    background-color: var(--bkgd-main2);
 }
 
 #personal-intro {
@@ -143,9 +152,9 @@ h2 {
     padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 20px;
-    border: solid black 5px;
-    background-color: var(--bkgd-main2);
+    padding-left: 20px;
+    margin-bottom: 20px;
+    /* border: solid black 5px; */
 }
 
 .app-label {
@@ -160,15 +169,16 @@ h2 {
 }
 
 #app-1 {
-    border: solid black 3px;
+    /* border: solid black 3px; */
     margin-bottom: 30px;
 }
 
 #apps-2-3 {
     display: flex;
-    justify-content: center;
-    flex-basis: 75%;
-    border: solid black 3px;
+    justify-content: space-around;
+    flex-basis: 100%;
+    margin-left: 16%;
+    /* border: solid black 3px; */
 }
 
 .app-img {
@@ -178,22 +188,25 @@ h2 {
 /*Contact Me section Formatting*/
 .contact-me {
     display: flex;
-    margin-left: 15px;
-    padding-bottom: 20px;
+    /* margin-left: 15px; */
+    padding: 20px 20px;
+    background-color: var(--bkgd-main2);
     }
 
 .contact-container {
     font-size: 1.5rem;
+    color: teal;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-left: 5px;
     /*border: 5px solid black;*/
     flex-basis: 75%;
     padding: 5px;
 }
 
-/*icon links before contact me information*/
+/* This adds icon links before contact me information.  The links were resized in MS Paint before adding. */ 
 #linkedin-ico::before {
     content: url(../images/linkedin.jpg);
     display: inline-block;
@@ -215,29 +228,38 @@ h2 {
     padding-right: 5px;
 }
 
-/* Media Queries - At certain breakpoints the content will need to change flex
-direction to use columns  */
+
+/* Media Queries - At a breakpoint of 740px the content will need to change flex
+direction to use columns.  */
 
 @media screen and (max-width: 740px) {
 
-   #label-mkt {
-        right: -73.1%;
-    }
-
-    h2 {
+/* This pushes the headings for each section to the top for improved legibility.
+The width of 100% allows the solid border to extend the width of the containter for 
+improved definition and styling of each individual section. */
+   h2 {
         border-bottom: solid black 3px;
         border-right: none;
+        margin-bottom: 10px;
         text-align: center;
+        width: 100%;
     }
+
     #about-me {
         flex-direction: column;
         align-items: center;
-        border-right: none;
     }
 
     .work-container {
         flex-direction: column;
-        
+    }
+
+    #label-mkt {
+        right: -73.1%;
+    }
+
+    #apps-2-3 {
+        flex-direction: column;
     }
 
     .contact-me {
