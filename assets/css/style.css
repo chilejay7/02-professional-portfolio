@@ -34,7 +34,6 @@ h2 {
     padding-right: 10px;
     width: 15%;
     font-size: 2rem;
-    /* border: solid black 3px; */
 }
 
 /*Header and Navigation menu styling.
@@ -54,7 +53,6 @@ Used to syle the header.  Also includes a background image to addy style.*/
 h1 {
     font-size: 3rem;
     flex-basis: 20%;
-    /*border: 5px solid black;*/
     flex-basis: 40%;
     text-align: center;
 }
@@ -83,7 +81,6 @@ styling after click.*/
 
 .navigation {
     flex-wrap: wrap;
-    /*border: 5px solid black;*/
     padding: 0;
     margin-top: 3%;
 }
@@ -140,7 +137,6 @@ a {
 .about-container {
     display: flex;
     padding: 20px 20px;
-
     background-color: var(--bkgd-main2);
 }
 
@@ -156,7 +152,6 @@ a {
     flex-wrap: wrap;
     padding-left: 20px;
     margin-bottom: 20px;
-    /* border: solid black 5px; */
 }
 
 .app-label {
@@ -171,7 +166,6 @@ a {
 }
 
 #app-1 {
-    /* border: solid black 3px; */
     margin-bottom: 30px;
     padding-left: 200px;
 }
@@ -182,7 +176,6 @@ a {
     margin-left: 0%;
     flex-basis: 70%;
     margin-left: 300px;
-    /* border: solid black 3px; */
 }
 
 .app-img {
@@ -199,7 +192,6 @@ a {
 /*Contact Me section Formatting*/
 .contact-me {
     display: flex;
-    /* margin-left: 15px; */
     padding: 20px 20px;
     background-color: var(--bkgd-main2);
     }
@@ -211,7 +203,6 @@ a {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-left: 5px;
-    /*border: 5px solid black;*/
     flex-basis: 75%;
     padding: 5px;
 }
