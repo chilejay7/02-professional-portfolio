@@ -171,13 +171,15 @@ a {
 #app-1 {
     /* border: solid black 3px; */
     margin-bottom: 30px;
+    padding-left: 200px;
 }
 
 #apps-2-3 {
     display: flex;
     justify-content: space-around;
-    flex-basis: 100%;
-    margin-left: 16%;
+    margin-left: 0%;
+    flex-basis: 70%;
+    margin-left: 300px;
     /* border: solid black 3px; */
 }
 
@@ -283,8 +285,14 @@ improved definition and styling of each individual section. */
         right: -73.1%;
     }
 
+    #app-1 {
+        padding-left: 0;
+    }
+
     #apps-2-3 {
         flex-direction: column;
+        padding-left: 0;
+        margin-left: 10px;
     }
 
     .contact-me {
@@ -297,6 +305,10 @@ improved definition and styling of each individual section. */
     #headshot {
         top: 57%;
         left: 32%;
+    }
+
+    #label-mkt {
+        right:-29.1%;
     }
 }
 
