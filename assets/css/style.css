@@ -162,7 +162,7 @@ a {
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
-    right: 20.8%;
+    right: 21.2%;
     bottom: 25%;
     background-color: teal;
     border: solid aqua 5px;
@@ -195,7 +195,6 @@ a {
 
 .contact-container {
     font-size: 1.5rem;
-    color: teal;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -207,8 +206,16 @@ a {
 }
 
 /* This adds icon links before contact me information.  The links were resized in MS Paint before adding. */ 
-#linkedin-ico::before {
-    content: url(../images/linkedin.jpg);
+
+#phone::before {
+    content: url(../images/phone_icon.png);
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+#gmail-ico::before {
+    content: url(../images/gmail.jpg);
     display: inline-block;
     vertical-align: middle;
     padding-right: 5px;
@@ -221,8 +228,8 @@ a {
     padding-right: 5px;
 }
 
-#gmail-ico::before {
-    content: url(../images/gmail.jpg);
+#linkedin-ico::before {
+    content: url(../images/linkedin.jpg);
     display: inline-block;
     vertical-align: middle;
     padding-right: 5px;
