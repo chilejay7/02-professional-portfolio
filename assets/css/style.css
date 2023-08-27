@@ -232,12 +232,21 @@ a {
 /* Media Queries - At a breakpoint of 740px the content will need to change flex
 direction to use columns. */
 
+/* This moves the headshot down the screen for a better experience on smaller screens. */
+@media screen and (max-width: 1500px) {
+    #headshot{
+        top: 41%;
+        /* left: 273px; */
+    }
+}
+
 @media screen and (max-width: 740px) {
 
 /* This pushes the headings for each section to the top for improved legibility.
 The width of 100% allows the solid border to extend the width of the containter for 
 improved definition and styling of each individual section. */
-   h2 {
+   
+    h2 {
         border-bottom: solid black 3px;
         border-right: none;
         margin-bottom: 10px;
