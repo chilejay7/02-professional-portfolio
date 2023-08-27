@@ -209,27 +209,29 @@ a {
 
 #phone::before {
     content: url(../images/phone_icon.png);
-    display: inline-block;
-    vertical-align: middle;
-    padding-right: 5px;
-}
+ }
 
 #gmail-ico::before {
     content: url(../images/gmail.jpg);
-    display: inline-block;
-    vertical-align: middle;
-    padding-right: 5px;
 }
 
 #github-ico:before {
     content: url(../images/github.ico);
-    display: inline-block;
-    vertical-align: middle;
-    padding-right: 5px;
 }
 
 #linkedin-ico::before {
     content: url(../images/linkedin.jpg);
+}
+
+/* This will keep the contact me section links with black text to avoid blending in with the background
+both before and after clicks. */
+.icons, 
+icons a:visited {
+    color: black;
+}
+
+/* This removed multiple lines of repetitious code to style the icons. */
+.icons::before {
     display: inline-block;
     vertical-align: middle;
     padding-right: 5px;
@@ -243,7 +245,6 @@ direction to use columns. */
 @media screen and (max-width: 1500px) {
     #headshot{
         top: 41%;
-        /* left: 273px; */
     }
 }
 
