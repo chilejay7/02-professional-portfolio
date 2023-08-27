@@ -6,6 +6,8 @@ The variables below have been added to reference the most commonly used colors. 
     --txt-color: #ffffff;
     --bkgd-main1: #d9dcd6;
     --bkgd-main2: #eeeeee;
+    --bkgd-cap: teal;
+    --cap-border: solid aqua 5px;
 }
 
 * {
@@ -164,8 +166,8 @@ a {
     color: #fff;
     right: 21.2%;
     bottom: 25%;
-    background-color: teal;
-    border: solid aqua 5px;
+    background-color: var(--bkgd-cap);
+    border: var(--cap-border);
 }
 
 #app-1 {
@@ -184,7 +186,14 @@ a {
 }
 
 .app-img {
-    border: solid aqua 5px;
+    border: var(--cap-border);
+}
+
+.work-container figcaption {
+    background-color: var(--bkgd-cap);
+    border: var(--cap-border);
+    width: 30%;
+    margin: 0 auto;
 }
 
 /*Contact Me section Formatting*/
