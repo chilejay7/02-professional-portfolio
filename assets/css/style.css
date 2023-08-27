@@ -1,7 +1,7 @@
 /* Throughout this document comments for solid borders have added to use as visual aids for styling
-purposes.  They can easily be toggled off/on to better determine margins, borders, positioning, etc. */
+purposes.  They can easily be toggled off/on to better determine margins, borders, positioning, etc.
 
-/* The variables below have been added to reference the most commonly used colors. */
+The variables below have been added to reference the most commonly used colors. */
 :root {
     --txt-color: #ffffff;
     --bkgd-main1: #d9dcd6;
