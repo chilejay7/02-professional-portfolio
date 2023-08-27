@@ -237,6 +237,14 @@ icons a:visited {
     padding-right: 5px;
 }
 
+/* Footer styling */
+footer,
+footer p {
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
 
 /* Media Queries - At a breakpoint of 740px the content will need to change flex
 direction to use columns. */
