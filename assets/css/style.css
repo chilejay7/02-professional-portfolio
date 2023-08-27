@@ -290,6 +290,12 @@ improved definition and styling of each individual section. */
         flex-direction: column;
     }
 
+    .work-container figcaption {
+        margin: 0px 10px 10px 10px;
+        text-align: center;
+        width: 20%;
+    }
+
     #label-mkt {
         right: -73.1%;
     }
