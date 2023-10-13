@@ -190,15 +190,16 @@ a {
     width: 400px;
 }
 
-#apps-2-3 {
+#apps-2-3, #apps-4-5 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 20%;
+    flex-basis: 10%;
     margin-left: 3%;
 }
 
-#apps-2-3 img {
+#apps-2-3 img,
+#apps-4-5 img {
     width: 300px;
     height: 250px;
 }
