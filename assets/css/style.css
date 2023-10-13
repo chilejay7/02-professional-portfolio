@@ -179,11 +179,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex-basis: 50%;
-    /* justify-content: space-around; */
-    /* margin-left: 0%; */
     flex-basis: 20%;
-    margin-left: 300px;
+    margin-left: 5%;
 }
 
 #apps-2-3 img {
