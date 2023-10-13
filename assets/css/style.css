@@ -7,7 +7,7 @@ The variables below have been added to reference the most commonly used colors. 
     --bkgd-main1: #d9dcd6;
     --bkgd-main2: #eeeeee;
     --bkgd-cap: teal;
-    --cap-border: solid aqua 5px;
+    --cap-border: solid black 2px;
 }
 
 * {
@@ -184,7 +184,7 @@ a {
 }
 
 #apps-2-3 img {
-    width: 250px;
+    width: 300px;
     height: 250px;
 }
 
