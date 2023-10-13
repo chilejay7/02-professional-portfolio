@@ -168,6 +168,8 @@ a {
 #app-1 {
     margin-bottom: 30px;
     padding-left: 200px;
+    max-width: 200px;
+    
 }
 
 #apps-2-3 {
