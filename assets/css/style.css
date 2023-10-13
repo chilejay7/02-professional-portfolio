@@ -167,7 +167,8 @@ a {
 
 #app-1 {
     margin-bottom: 30px;
-    padding-left: 200px;    
+    padding-left: 200px;
+    flex-basis: 20%;
 }
 
 #app-1 img {
@@ -176,10 +177,15 @@ a {
 
 #apps-2-3 {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    margin-left: 0%;
-    flex-basis: 70%;
-    margin-left: 300px;
+    flex-basis: 20%;
+    margin-left: 5%;
+}
+
+#apps-2-3 img {
+    width: 250px;
+    height: 250px;
 }
 
 .app-img {
