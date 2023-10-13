@@ -217,6 +217,12 @@ a {
 
 figure {
     justify-content: center;
+    transition: 0.5s;
+}
+
+
+figure:hover {
+   transform: translate(0, -10px);
 }
 
 /*Contact Me section Formatting*/
