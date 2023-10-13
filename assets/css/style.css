@@ -167,7 +167,7 @@ a {
 
 #app-1 {
     margin-bottom: 30px;
-    padding-left: 200px;
+    padding-left: 5%;
     flex-basis: 20%;
 }
 
@@ -178,9 +178,9 @@ a {
 #apps-2-3 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-basis: 20%;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 #apps-2-3 img {
@@ -195,8 +195,8 @@ a {
 .work-container figcaption {
     background-color: var(--bkgd-cap);
     border: var(--cap-border);
-    width: 30%;
-    margin: 0 auto;
+    width: 200px;
+
 }
 
 /*Contact Me section Formatting*/
