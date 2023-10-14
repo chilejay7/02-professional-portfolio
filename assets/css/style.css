@@ -55,7 +55,6 @@ h2 {
 /*Header and Navigation menu styling.
 
 Used to syle the header.  Also includes a background image to addy style.*/
-
 .hamburger {
     display: none;
 }
@@ -63,7 +62,7 @@ Used to syle the header.  Also includes a background image to addy style.*/
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: slategrey;
     color: #ffffff;
@@ -398,7 +397,7 @@ improved definition and styling of each individual section. */
         display: inline-block;
         position: fixed;
         z-index: 100;
-        top: 0;
+        top: 1rem;
         right: 1rem;
         padding: 3px;
         background: white;
