@@ -350,10 +350,14 @@ improved definition and styling of each individual section. */
     }
 }
 
-@media screen and (max-width: 553px) {
+@media screen and (max-width: 580px) {
     #headshot {
-        top: 57%;
+        top: 35%;
         left: 32%;
+    }
+
+    .hero-image p {
+        display: none;
     }
 
     #label-mkt {
