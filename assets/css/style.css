@@ -398,7 +398,7 @@ improved definition and styling of each individual section. */
         display: inline-block;
         position: fixed;
         z-index: 100;
-        top: 1rem;
+        top: 0;
         right: 1rem;
         padding: 3px;
         background: white;
