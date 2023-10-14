@@ -6,7 +6,6 @@ The variables below have been added to reference the most commonly used colors. 
     --txt-color: #ffffff;
     --bkgd-main1: #d9dcd6;
     --bkgd-main2: #eeeeee;
-    --bkgd-cap: teal;
     --cap-border: solid black 2px;
 
 
@@ -110,8 +109,8 @@ a {
 }
 
 /* This gives links in the navigation menu a grey background when hovered. */
-.navigation a:hover {
-    background-color: grey;
+.navigation ul li:hover {
+    transform: translate(0, -10px);
 }
 
 /* This styles links so the text color does not blend into the header background after click. */
@@ -131,8 +130,9 @@ a {
     margin-left: 20px;
     font-size: 2rem;
     color: var(--txt-color);
-    border-bottom: solid teal 3px;
-    border-radius: 20%;
+    border-bottom: solid var(--color5) 3px;
+    border-radius: 10%;
+    transition: 0.5s;
 }
 
 /*Image section after navigation menu*/
