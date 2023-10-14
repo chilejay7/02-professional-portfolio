@@ -22,6 +22,8 @@ The variables below have been added to reference the most commonly used colors. 
     --color9: #184E77;
 
     --gradient1: linear-gradient(45deg, #34A0A4, #1A759F, #34A0A4);
+
+    --shadow: 10px 20px 20px black;
 }
 
 * {
@@ -166,7 +168,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 
 .app-label {
@@ -181,9 +183,10 @@ a {
 }
 
 #app-1 {
-    margin-bottom: 30px;
-    padding-left: 5%;
+    margin-left: 2%;
     flex-basis: 20%;
+    box-shadow: var(--shadow);
+    transition: 0.5s;
 }
 
 #app-1 img {
@@ -213,15 +216,19 @@ a {
     border: var(--cap-border);
     width: 250px;
     text-align: center;
+    margin: 0 auto;
 }
 
 figure {
+    padding: 5px;
     justify-content: center;
     transition: 0.5s;
+    box-shadow: var(--shadow);
 }
 
 
-figure:hover {
+figure:hover,
+#app-1:hover {
    transform: translate(0, -10px);
 }
 
