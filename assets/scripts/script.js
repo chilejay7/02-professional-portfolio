@@ -10,7 +10,6 @@ menuJ = $('.menu');
 
 toggleMenu = (e) => {
     if (menu.classList.contains('showMenu')) {
-        e.preventDefault;
         menu.classList.remove('showMenu');
         closeIcon.style.display = 'none';
         menuIcon.style.display = 'block';
