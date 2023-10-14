@@ -20,7 +20,7 @@ The variables below have been added to reference the most commonly used colors. 
     --color8: #1E6091;
     --color9: #184E77;
 
-    --gradient1: linear-gradient(45deg, #34A0A4, #1A759F, #34A0A4);
+    --gradient1: linear-gradient(45deg, #52B69A, #1A759F, #52B69A);
 
     --shadow: 10px 20px 20px black;
 }
