@@ -4,12 +4,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Cody Burkholder">
     <meta name="description"
         content="This professional portfolio was created to provide samples of my work as a developer through my deployed applications.">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./assets/images/headshot.jpg">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Professional Portfolio</title>
 </head>
 
@@ -21,14 +24,19 @@
         </h1>
 
         <nav class="navigation">
-            <ul>
-                <li><a href="#about-me" title="Find out more information about me.">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me" title="If you would like to contact me, please follow this link.">Contact
+            <ul class="menu">
+                <li><a class="menuItem" href="#about-me" title="Find out more information about me.">About Me</a></li>
+                <li><a class="menuItem" href="#work">Work</a></li>
+                <li><a class="menuItem" href="#contact-me" title="If you would like to contact me, please follow this link.">Contact
                         Me</a></li>
-                <li><a href="https://docs.google.com/document/d/1fMT_JnKNTxzLRqfmKp-VGYwtdeV-3LO1/edit?usp=sharing&ouid=109778067097557588276&rtpof=true&sd=true" title="Resume on Google Docs" target=" _blank">Resume</a></li>
+                <li><a class="menuItem" href="https://docs.google.com/document/d/1fMT_JnKNTxzLRqfmKp-VGYwtdeV-3LO1/edit?usp=sharing&ouid=109778067097557588276&rtpof=true&sd=true" title="Resume on Google Docs" target=" _blank">Resume</a></li>
             </ul>
         </nav>
+
+        <button class="hamburger">
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+        </button>
     </header>
 
     <img id="headshot" src="./assets/images/headshot.jpg" height="125" width="125"
@@ -63,7 +71,7 @@
 
             <section class="apps" id="app-1">
                 <a href="https://chilejay7.github.io/Hitchhiker-s-Guide-Travel-App-/"
-                    title="HitchhikersGuide Travel Application" target=" _blank">
+                    title="Hitchhiker's Guide Travel Application" target=" _blank">
                     <img class="app-img" src="./assets/images/HitchhikersGuide.png"
                         alt="Picture of Horiseon Marketing application.">
                 </a>
