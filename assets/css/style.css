@@ -362,6 +362,10 @@ improved definition and styling of each individual section. */
         left: 32%;
     }
 
+    h1 {
+        flex-basis: 100%;
+    }
+
     .hero-image p {
         display: none;
     }
@@ -369,6 +373,11 @@ improved definition and styling of each individual section. */
     #label-mkt {
         right:-29.1%;
     }
+
+    .apps {
+        flex-basis: 50%;
+    }
+    
 
     #apps-2-3 img,
     #apps-4-5 img {
@@ -380,6 +389,7 @@ improved definition and styling of each individual section. */
     #app-1 {
         margin-top: 20px;
         width: 90%;
+        padding-left: 20px;
     }
 
     /* Hamburger Menu */
