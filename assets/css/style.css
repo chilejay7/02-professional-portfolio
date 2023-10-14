@@ -197,7 +197,9 @@ a {
     width: 400px;
 }
 
-#apps-2-3, #apps-4-5 {
+#apps-2-3, 
+#apps-4-5,
+#apps-6-7 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -207,7 +209,8 @@ a {
 }
 
 #apps-2-3 img,
-#apps-4-5 img {
+#apps-4-5 img,
+#apps-6-7 img {
     width: 300px;
     height: 250px;
 }
@@ -402,7 +405,6 @@ improved definition and styling of each individual section. */
         padding: 3px;
         background: white;
         border: solid black 2px;
-        /* display: none; */
     }
 
     .closeIcon {
@@ -422,7 +424,16 @@ improved definition and styling of each individual section. */
         color: white;
         list-style: none;
         padding-top: 4rem;
-
     }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+    
+    .navigation ul {
+        display: inline-block;
+    }
+
+    
 }
 
