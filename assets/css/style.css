@@ -202,6 +202,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-content: center;
     flex-basis: 10%;
     margin-left: 3%;
 }
@@ -224,7 +225,7 @@ a {
     margin: 0 auto;
 }
 
-figure {
+.figure {
     padding: 5px;
     justify-content: center;
     transition: 0.5s;
@@ -232,7 +233,7 @@ figure {
 }
 
 
-figure:hover,
+.figure:hover,
 #app-1:hover {
    transform: translate(0, -10px);
 }
@@ -329,11 +330,11 @@ improved definition and styling of each individual section. */
         flex-direction: column;
     }
 
-    .work-container figcaption {
+    /* .work-container figcaption {
         margin: 0px 10px 10px 10px;
         text-align: center;
         width: 20%;
-    }
+    } */
 
     #label-mkt {
         right: -73.1%;
@@ -367,6 +368,18 @@ improved definition and styling of each individual section. */
 
     #label-mkt {
         right:-29.1%;
+    }
+
+    #apps-2-3 img,
+    #apps-4-5 img {
+    width: 400px;
+    height: 400px;
+    }
+
+    .figure,
+    #app-1 {
+        margin-top: 20px;
+        width: 90%;
     }
 
     /* Hamburger Menu */
