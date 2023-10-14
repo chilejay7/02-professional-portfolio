@@ -12,7 +12,7 @@ https://chilejay7.github.io/02-professional-portfolio/
 
 A screenshot of the webiste design is included below for reference.
 
-![alt text](./assets/images/profport.png)
+![alt text](./assets/images/UpdatedPortfolio.png)
 
 ## Credits
 
