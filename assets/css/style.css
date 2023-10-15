@@ -370,30 +370,20 @@ improved definition and styling of each individual section. */
         display: none;
     }
 
-    #label-mkt {
-        right:-29.1%;
-    }
-
-    .apps {
-        flex-basis: 50%;
-    }
-
     #app-1 img {
-        width: 350px; 
+        width: 100%; 
     }
     
     #apps-2-3 img,
     #apps-4-5 img,
     #apps-6-7 img {
-    width: 335px;
-    height: 335px;
+        margin-left: 7%;
     }
 
     .figure,
     #app-1 {
         margin-top: 20px;
         width: 90%;
-        /* padding-left: 10px; */
     }
 
     .work-container {
@@ -425,7 +415,6 @@ improved definition and styling of each individual section. */
         left: 0;
         bottom: 0;
         z-index: 99;
-        /* background: black; */
         color: white;
         list-style: none;
         padding-top: 4rem;
