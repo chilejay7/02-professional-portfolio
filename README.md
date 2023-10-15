@@ -10,7 +10,7 @@ https://chilejay7.github.io/Professional-Portfolio/
 
 ## Usage
 
-A screenshot of the webiste design is included below for reference.
+A screenshot of the webiste's design is included below for reference.
 
 ![alt text](./assets/images/UpdatedPortfolio.png)
 
