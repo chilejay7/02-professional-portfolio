@@ -309,12 +309,19 @@ direction to use columns. */
     }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 780px) {
 
 /* This pushes the headings for each section to the top for improved legibility.
 The width of 100% allows the solid border to extend the width of the containter for 
 improved definition and styling of each individual section. */
    
+    #headshot {
+        top: 25%;
+    }
+    h1 {
+        flex-basis: 75%;
+    }
+
     h2 {
         border-bottom: solid black 3px;
         border-right: none;
@@ -336,10 +343,16 @@ improved definition and styling of each individual section. */
         text-align: center;
     }
 
-    #apps-2-3 {
+    /* #apps-2-3 {
         flex-direction: column;
         padding-left: 0;
         margin-left: 10px;
+    } */
+
+    #apps-2-3, #apps-4-5, #apps-6-7 {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 10px;
     }
 
     .contact-me {
