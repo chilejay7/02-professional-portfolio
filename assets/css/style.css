@@ -376,6 +376,12 @@ improved definition and styling of each individual section. */
         display: none;
     }
 
+    #apps-2-3, #apps-4-5, #apps-6-7 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+
     #app-1 img {
         width: 100%;
     }
