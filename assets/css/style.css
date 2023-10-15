@@ -379,21 +379,20 @@ improved definition and styling of each individual section. */
     }
 
     #app-1 img {
-        width: 350px; 
+        width: 100%; 
     }
     
     #apps-2-3 img,
     #apps-4-5 img,
     #apps-6-7 img {
-    width: 335px;
-    height: 335px;
+        margin-left: 7%;
     }
 
     .figure,
     #app-1 {
         margin-top: 20px;
         width: 90%;
-        /* padding-left: 10px; */
+        /* margin: 0 auto; */
     }
 
     .work-container {
