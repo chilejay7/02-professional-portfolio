@@ -54,7 +54,7 @@ h2 {
 
 /*Header and Navigation menu styling.
 
-Used to syle the header.  Also includes a background image to addy style.*/
+Used to syle the header.  Also includes a background image to add style.*/
 .hamburger {
     display: none;
 }
@@ -336,14 +336,6 @@ improved definition and styling of each individual section. */
         text-align: center;
     }
 
-    #label-mkt {
-        right: -73.1%;
-    }
-
-    #app-1 {
-        padding-left: 0;
-    }
-
     #apps-2-3 {
         flex-direction: column;
         padding-left: 0;
@@ -371,7 +363,7 @@ improved definition and styling of each individual section. */
     }
 
     #app-1 img {
-        width: 100%; 
+        width: 100%;
     }
     
     #apps-2-3 img,
