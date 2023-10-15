@@ -8,7 +8,7 @@ const menuIcon = document.querySelector('.menuIcon');
 menuIconJ = $('.menuIcon');
 menuJ = $('.menu');
 
-toggleMenu = (e) => {
+toggleMenu = () => {
     if (menu.classList.contains('showMenu')) {
         menu.classList.remove('showMenu');
         closeIcon.style.display = 'none';
