@@ -383,9 +383,10 @@ improved definition and styling of each individual section. */
     }
     
     #apps-2-3 img,
-    #apps-4-5 img {
-    width: 350px;
-    height: 350px;
+    #apps-4-5 img,
+    #apps-6-7 img {
+    width: 335px;
+    height: 335px;
     }
 
     .figure,
