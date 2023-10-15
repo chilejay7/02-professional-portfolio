@@ -395,6 +395,10 @@ improved definition and styling of each individual section. */
         /* padding-left: 10px; */
     }
 
+    .work-container {
+        flex-wrap: nowrap;
+    }
+
     /* Hamburger Menu */
     .hamburger {
         display: inline-block;
