@@ -358,7 +358,7 @@ improved definition and styling of each individual section. */
 
 @media screen and (max-width: 580px) {
     #headshot {
-        top: 20%;
+        top: 28%;
         left: 32%;
     }
 
@@ -424,12 +424,13 @@ improved definition and styling of each individual section. */
         color: white;
         list-style: none;
         padding-top: 4rem;
+
     }
 
     .showMenu {
-        transform: translateY(0);
+        transform: translateY(0%);
     }
-    
+
     .navigation ul {
         display: inline-block;
     }
