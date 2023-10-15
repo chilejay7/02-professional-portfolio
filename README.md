@@ -6,7 +6,7 @@ A professional porfolio application was requested to provide examples of my work
 
 ## Website URL
 
-https://chilejay7.github.io/02-professional-portfolio/
+https://chilejay7.github.io/Professional-Portfolio/
 
 ## Usage
 
@@ -16,7 +16,9 @@ A screenshot of the webiste design is included below for reference.
 
 ## Credits
 
-N/A
+The hamburger menu was built using code from the tutorial linked below.  Addtional changes and styling were made to the starter code to allow it to better fit the needs of my application.
+
+https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
 
 ## License
 

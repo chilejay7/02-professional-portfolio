@@ -234,7 +234,7 @@ a {
     box-shadow: var(--shadow);
 }
 
-
+/* This adds a hover effect for the application images to allow them to shift up slightly. */
 .figure:hover,
 #app-1:hover {
    transform: translate(0, -10px);
@@ -279,7 +279,7 @@ a {
 /* This will keep the contact me section links with black text to avoid blending in with the background
 both before and after clicks. */
 .icons, 
-icons a:visited {
+.icons a:visited {
     color: black;
 }
 
