@@ -114,7 +114,7 @@ a {
 
 /* This gives links in the navigation menu a grey background when hovered. */
 .navigation ul li:hover {
-    transform: translate(0, -10px);
+    transform: translate(0, -5px);
 }
 
 /* This styles links so the text color does not blend into the header background after click. */
